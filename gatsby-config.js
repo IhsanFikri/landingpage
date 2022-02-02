@@ -1,7 +1,15 @@
 module.exports = {
-	parhPrefix:"/landingpage",
-  },
-  plugins: [
+	pathPrefix:"/landingpage",
+
+siteMetadata: {
+    author: `Ihsan`,
+    title: ` `,
+    siteUrl: `https://zulvia-ihsan.my.id`,
+    description: `hmmmmm`,
+  },  
+
+
+plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
